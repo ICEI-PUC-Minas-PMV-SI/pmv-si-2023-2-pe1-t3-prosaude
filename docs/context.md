@@ -11,9 +11,9 @@ O cerne do problema reside na complexidade da análise histórica de pacientes n
 Este trabalho tem os seguintes objetivos:
 1. **Objetivo Geral:** Desenvolver o "PróSáude", uma aplicação web destinada a solucionar os desafios na análise histórica de pacientes na área da saúde. Isso será alcançado ao simplificar o preenchimento de fichas médicas e ao fornecer informações de saúde úteis.
 2. **Objetivos Específicos:**
-   a. Simplificar e agilizar o processo de preenchimento de fichas médicas, reduzindo o tempo gasto pelos pacientes em ambientes clínicos.
-   b. Oferecer informações de saúde confiáveis, incluindo orientações sobre primeiros socorros e uso adequado de medicamentos, para capacitar os pacientes em sua jornada de cuidados de saúde.
-   c. Implementar uma funcionalidade de geração e acesso seguro e conveniente às fichas médicas, ao mesmo tempo em que melhora a privacidade e a compartilhamento de informações entre pacientes e profissionais de saúde.
+      a. Simplificar e agilizar o processo de preenchimento de fichas médicas, reduzindo o tempo gasto pelos pacientes em ambientes clínicos.
+      b. Oferecer informações de saúde confiáveis, incluindo orientações sobre primeiros socorros e uso adequado de medicamentos, para capacitar os pacientes em sua jornada de cuidados de saúde.
+      c. Implementar uma funcionalidade de geração e acesso seguro e conveniente às fichas médicas, ao mesmo tempo em que melhora a privacidade e a compartilhamento de informações entre pacientes e profissionais de saúde.
 
 ## Justificativa
 
