@@ -1,35 +1,19 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+No cenário atual, onde o acesso eficiente a informações de saúde e o gerenciamento de históricos médicos são vitais, surge o projeto "PróSáude". Em um contexto de mercado em constante evolução, esta aplicação web se destaca como uma solução abrangente e inovadora. O desafio fundamental enfrentado pelos pacientes e profissionais de saúde é a análise histórica complexa, que muitas vezes é lenta e propensa a erros. Com a crescente demanda por serviços de saúde, é imperativo resolver esse problema de forma eficaz e acessível. Portanto, o "PróSáude" busca oferecer uma resposta a esta necessidade crítica, combinando simplicidade na gestão de históricos médicos com informações de saúde confiáveis.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O "PróSáude" surge em resposta ao desafio na análise histórica de pacientes na área da saúde. Atualmente, o preenchimento manual de fichas médicas e a dificuldade de acesso a informações de saúde confiáveis prejudicam tanto pacientes quanto profissionais de saúde. Além disso, o contexto inclui a diversidade de tecnologias e processos utilizados em clínicas e hospitais. Portanto, o problema central consiste em simplificar o gerenciamento de históricos médicos e fornecer informações de saúde acessíveis e úteis em um ambiente propenso a tecnologias variadas.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Os objetivos deste trabalho são:
+1. **Objetivo Geral:** Desenvolver uma aplicação web, o "PróSáude", que solucione o problema da análise histórica de pacientes na área da saúde, tornando mais eficiente o preenchimento de fichas médicas e fornecendo informações de saúde relevantes.
+2. **Objetivos Específicos:**
+   a. Simplificar o processo de preenchimento de fichas médicas, reduzindo o tempo gasto pelos pacientes em consultórios e hospitais.
+   b. Fornecer informações de saúde confiáveis, abordando tópicos como primeiros socorros e uso adequado de medicamentos, para empoderar os pacientes.
+   c. Integrar uma funcionalidade de geração de QR codes que autorizem o acesso seguro às fichas médicas, melhorando a privacidade e o compartilhamento de informações entre pacientes e profissionais de saúde.
 
 ## Justificativa
 
