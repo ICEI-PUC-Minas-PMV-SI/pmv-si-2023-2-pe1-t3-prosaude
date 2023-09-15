@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto PróSáude oferece uma solução abrangente para pacientes e profissionais de saúde, simplificando o gerenciamento de históricos médicos e fornecendo informações de saúde úteis. Com uma plataforma web intuitiva, os pacientes podem preencher fichas médicas de forma eficiente e acessar recursos informativos sobre saúde, incluindo primeiros socorros e uso adequado de medicamentos.
 
 ## Integrantes
 
