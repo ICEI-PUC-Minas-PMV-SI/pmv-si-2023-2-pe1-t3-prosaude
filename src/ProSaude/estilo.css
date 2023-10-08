@@ -1,0 +1,90 @@
+/* estilo.css */
+.top-bar {
+    background-color: #7ed957;
+    color: black;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 2;
+}
+
+
+.title {
+    margin-left: 10px; 
+}
+
+.button-container {
+    margin-right: 10px; /* Espaço entre os botões */
+}
+
+.button {
+    background-color: #55555500;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 10px; /* Espaço entre os botões */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(209, 206, 206);
+
+}
+img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-top: 50px; /* Espaço entre a barra superior e a imagem */
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+}
+.sobre-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    margin: 20px auto; /* Adicione uma margem na parte superior e inferior para criar um espaço entre as imagens */
+}
+
+.sobre-image {
+    max-width: 100px; /* Largura máxima da imagem */
+}
+
+.sobre-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px; /* Tamanho do título */
+    margin-top: 10px; /* Espaço entre o ícone e o título */
+    text-align: center; /* Centraliza horizontalmente o título */
+}
+
+/* Estilo CSS para o quadrado transparente */
+.sobre-text-container {
+    background-color: rgba(0, 0, 0, 0); /* Cor de fundo semi-transparente (preto com 20% de opacidade) */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px; /* Espaçamento interno reduzido para tornar o quadrado menor */
+    max-width: 250px; /* Largura máxima do quadrado */
+    margin-top: 2px; /* Espaço entre o título e o quadrado */
+    font-family: 'Open Sans', sans-serif;
+}
+.overlay {
+    background-color: #1382368c; /* Cor de fundo semi-transparente (preto com 50% de opacidade) */
+    color: white; /* Cor do texto */
+    position: absolute; /* Posição absoluta para sobrepor a imagem */
+    top: 40%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o elemento no centro da tela */
+    padding: 1em; /* Espaçamento interno (usando em) */
+    font-size: 2em; /* Tamanho da fonte (usando em) */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+}
