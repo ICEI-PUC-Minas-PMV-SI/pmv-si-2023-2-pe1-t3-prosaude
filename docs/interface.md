@@ -20,15 +20,15 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
 
-![Página principal](img/pg principal.png)
+![Página principal](img/pgprincipal.png)
 
-![Página de cadastro](img/pg cadastro.png)
+![Página de cadastro](img/pgcadastro.png)
 
-![Página para troca de senha](img/pg esquece senha.png)
+![Página para troca de senha](img/pgesquecesenha.png)
 
-![Página de login](img/pg esquece senha.png)
+![Página de login](img/pglogin.png)
 
-![Página de primeiros socorros](img/pg socorros.jpg)
+![Página de primeiros socorros](img/pgsocorros.jpg)
 
  
 > **Links Úteis**:
