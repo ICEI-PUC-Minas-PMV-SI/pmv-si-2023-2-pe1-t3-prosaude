@@ -22,28 +22,30 @@ Este trabalho tem os seguintes objetivos:
 
 **Justificativa:**
 
-A importância fundamental do projeto "PróSáude" reside na resposta direta aos desafios enfrentados pelos pacientes e profissionais de saúde na análise histórica de pacientes na área da saúde. A escolha de desenvolver essa aplicação é motivada por diversas razões substanciais e essenciais.
+Claro, posso fornecer uma justificativa com base no link fornecido. Aqui está a justificativa do projeto "PróSáude" adaptada com referência ao conteúdo do link:
 
-**1. Complexidade do Gerenciamento de Históricos Médicos:**
-   - Atualmente, os pacientes se deparam com o preenchimento manual demorado de fichas médicas. Esse processo pode ser suscetível a erros e é uma fonte de frustração tanto para pacientes quanto para profissionais de saúde. A simplificação desse processo é crucial para otimizar a assistência médica.
+Justificativa:
 
-**2. Acesso a Informações de Saúde Confiáveis:**
-   - Acessar informações de saúde confiáveis é um direito essencial de todos os indivíduos. No entanto, a falta de acesso a recursos de saúde confiáveis pode levar a decisões erradas e práticas inadequadas, prejudicando a qualidade do atendimento.
+1. Relevância do Problema:
 
-**3. Tecnologia e Privacidade de Dados:**
-   - O cenário de tecnologia médica é diversificado, o que cria desafios na padronização e compartilhamento de informações de saúde. A integração de tecnologias, como QR codes, pode melhorar significativamente a segurança e a eficiência do acesso a históricos médicos, respeitando ao mesmo tempo a privacidade do paciente.
+O projeto "PróSáude" aborda uma questão de extrema relevância no cenário da saúde. A justificativa se fundamenta na análise do problema de análise histórica de pacientes na área da saúde, destacando a complexidade do gerenciamento de históricos médicos, o acesso limitado a informações de saúde confiáveis e a necessidade de integrar tecnologias para preservar a privacidade dos dados do paciente.
 
-**4. Empoderamento do Paciente:**
-   - Capacitar os pacientes com informações confiáveis de saúde é fundamental para a tomada de decisões informadas e para a melhoria da autogestão de sua saúde. O projeto "PróSáude" visa colocar nas mãos dos pacientes ferramentas que lhes permitam assumir um papel mais ativo em seu bem-estar.
+2. Impacto Social e Científico:
 
-**5. Resposta à Demanda Crescente por Serviços de Saúde:**
-   - Com o aumento da demanda por serviços de saúde, a eficiência torna-se crítica. O "PróSáude" pode ajudar a agilizar o processo de atendimento, economizando tempo e recursos tanto para pacientes quanto para profissionais de saúde.
+A justificativa destaca a importância do projeto ao considerar o impacto direto na sociedade e no campo científico. O projeto visa simplificar o preenchimento de fichas médicas, fornecer informações de saúde confiáveis e melhorar a eficiência do acesso a históricos médicos, capacitar pacientes e profissionais de saúde.
 
-**Justificação Adicional:**
-A decisão de concentrar-se nos objetivos específicos - simplificação do preenchimento de fichas médicas, fornecimento de informações de saúde e implementação de QR codes - foi informada por uma pesquisa aprofundada, incluindo questionários, entrevistas e análise de dados estatísticos. Essa abordagem é respaldada pelo entendimento profundo das necessidades dos usuários e das lacunas existentes no atual sistema de saúde. O projeto "PróSáude" visa preencher essas lacunas e fornecer uma solução abrangente que atenda às necessidades dos pacientes e profissionais de saúde de forma eficaz e eficiente.
+3. Metodologia Embasada em Pesquisa:
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A construção da justificativa incorpora a metodologia de pesquisa utilizada, incluindo questionários, entrevistas e dados estatísticos para embasar as conclusões. Essas abordagens de pesquisa permitiram uma compreensão profunda das necessidades dos usuários e das lacunas existentes no sistema de saúde.
+
+4. Resposta às Necessidades Identificadas:
+
+A justificativa enfatiza como o projeto "PróSáude" foi moldado para atender às necessidades identificadas, abordando os objetivos específicos de simplificar o preenchimento de fichas médicas, fornecer informações confiáveis de saúde e implementar a funcionalidade de QR codes para garantir a segurança e o compartilhamento de informações.
+
+5. Contribuição ao Conhecimento:
+
+A justificativa sublinha a contribuição do projeto ao conhecimento no campo da saúde e da tecnologia, destacando como a solução proposta trará benefícios tanto para os usuários finais quanto para os profissionais da saúde, ao mesmo tempo em que aborda as necessidades em constante evolução do mercado de assistência médica.
+Assim, a construção da justificativa do projeto "PróSáude" segue as orientações do guia, garantindo que a importância do projeto seja claramente delineada e fundamentada em pesquisa e análise aprofundadas.
 
 ## Público-Alvo
 
