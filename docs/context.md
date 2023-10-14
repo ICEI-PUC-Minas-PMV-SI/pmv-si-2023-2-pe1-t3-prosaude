@@ -45,17 +45,27 @@ A justificativa enfatiza como o projeto "PróSáude" foi moldado para atender à
 5. Contribuição ao Conhecimento:
 
 A justificativa sublinha a contribuição do projeto ao conhecimento no campo da saúde e da tecnologia, destacando como a solução proposta trará benefícios tanto para os usuários finais quanto para os profissionais da saúde, ao mesmo tempo em que aborda as necessidades em constante evolução do mercado de assistência médica.
-Assim, a construção da justificativa do projeto "PróSáude" segue as orientações do guia, garantindo que a importância do projeto seja claramente delineada e fundamentada em pesquisa e análise aprofundadas.
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+**Público-Alvo:**
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O público-alvo do projeto "PróSáude" é diversificado, abrangendo pacientes, profissionais de saúde e clínicas médicas. Cada grupo apresenta características distintas, conhecimentos prévios e necessidades específicas em relação à aplicação.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+**1. Pacientes:**
+   - *Perfil*: Os pacientes representam um público amplo, variando em idade, formação educacional e experiência tecnológica. Inclui indivíduos que buscam assistência médica em clínicas e hospitais.
+   - *Conhecimentos Prévios*: Pode variar de leigos em tecnologia a pessoas com níveis moderados de habilidades digitais. Muitos podem não estar familiarizados com o preenchimento de fichas médicas e procedimentos médicos.
+   - *Necessidades*: Buscam simplicidade e confiabilidade na gestão de seus históricos médicos. Desejam acesso a informações de saúde claras e confiáveis.
+
+**2. Profissionais de Saúde:**
+   - *Perfil*: Inclui médicos, enfermeiros, assistentes médicos e pessoal administrativo de clínicas e hospitais.
+   - *Conhecimentos Prévios*: Possuem formação médica ou relacionada à saúde e estão familiarizados com tecnologia em graus variados.
+   - *Necessidades*: Requerem uma solução eficiente para acessar e atualizar as informações dos pacientes, reduzindo o tempo gasto em tarefas administrativas.
+
+**3. Clínicas Médicas:**
+   - *Perfil*: Administradores e gestores de clínicas e hospitais.
+   - *Conhecimentos Prévios*: Podem ter experiência em gestão de saúde, mas podem não ser especialistas em tecnologia.
+   - *Necessidades*: Procuram soluções que melhorem a eficiência e a qualidade dos serviços prestados, além de atender aos requisitos regulatórios.
+
+Para uma compreensão mais profunda do público-alvo, podemos criar diagramas de personas e um mapa de stakeholders, destacando as características, objetivos e desafios de cada grupo de usuários. Isso nos permitirá projetar a aplicação "PróSáude" de forma mais precisa, atendendo às necessidades e expectativas específicas de cada público.
