@@ -20,9 +20,27 @@ Este trabalho tem os seguintes objetivos:
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+**Justificativa:**
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A importância fundamental do projeto "PróSáude" reside na resposta direta aos desafios enfrentados pelos pacientes e profissionais de saúde na análise histórica de pacientes na área da saúde. A escolha de desenvolver essa aplicação é motivada por diversas razões substanciais e essenciais.
+
+**1. Complexidade do Gerenciamento de Históricos Médicos:**
+   - Atualmente, os pacientes se deparam com o preenchimento manual demorado de fichas médicas. Esse processo pode ser suscetível a erros e é uma fonte de frustração tanto para pacientes quanto para profissionais de saúde. A simplificação desse processo é crucial para otimizar a assistência médica.
+
+**2. Acesso a Informações de Saúde Confiáveis:**
+   - Acessar informações de saúde confiáveis é um direito essencial de todos os indivíduos. No entanto, a falta de acesso a recursos de saúde confiáveis pode levar a decisões erradas e práticas inadequadas, prejudicando a qualidade do atendimento.
+
+**3. Tecnologia e Privacidade de Dados:**
+   - O cenário de tecnologia médica é diversificado, o que cria desafios na padronização e compartilhamento de informações de saúde. A integração de tecnologias, como QR codes, pode melhorar significativamente a segurança e a eficiência do acesso a históricos médicos, respeitando ao mesmo tempo a privacidade do paciente.
+
+**4. Empoderamento do Paciente:**
+   - Capacitar os pacientes com informações confiáveis de saúde é fundamental para a tomada de decisões informadas e para a melhoria da autogestão de sua saúde. O projeto "PróSáude" visa colocar nas mãos dos pacientes ferramentas que lhes permitam assumir um papel mais ativo em seu bem-estar.
+
+**5. Resposta à Demanda Crescente por Serviços de Saúde:**
+   - Com o aumento da demanda por serviços de saúde, a eficiência torna-se crítica. O "PróSáude" pode ajudar a agilizar o processo de atendimento, economizando tempo e recursos tanto para pacientes quanto para profissionais de saúde.
+
+**Justificação Adicional:**
+A decisão de concentrar-se nos objetivos específicos - simplificação do preenchimento de fichas médicas, fornecimento de informações de saúde e implementação de QR codes - foi informada por uma pesquisa aprofundada, incluindo questionários, entrevistas e análise de dados estatísticos. Essa abordagem é respaldada pelo entendimento profundo das necessidades dos usuários e das lacunas existentes no atual sistema de saúde. O projeto "PróSáude" visa preencher essas lacunas e fornecer uma solução abrangente que atenda às necessidades dos pacientes e profissionais de saúde de forma eficaz e eficiente.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
