@@ -22,12 +22,6 @@ Este trabalho tem os seguintes objetivos:
 
 ## Justificativa
 
-**Justificativa:**
-
-Claro, posso fornecer uma justificativa com base no link fornecido. Aqui está a justificativa do projeto "PróSáude" adaptada com referência ao conteúdo do link:
-
-Justificativa:
-
 1. Relevância do Problema:
 
 O projeto "PróSáude" aborda uma questão de extrema relevância no cenário da saúde. A justificativa se fundamenta na análise do problema de análise histórica de pacientes na área da saúde, destacando a complexidade do gerenciamento de históricos médicos, o acesso limitado a informações de saúde confiáveis e a necessidade de integrar tecnologias para preservar a privacidade dos dados do paciente.
