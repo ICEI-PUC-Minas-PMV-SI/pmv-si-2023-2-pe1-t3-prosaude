@@ -63,5 +63,3 @@ O público-alvo do projeto "PróSáude" é diversificado, abrangendo pacientes, 
    - *Perfil*: Administradores e gestores de clínicas e hospitais.
    - *Conhecimentos Prévios*: Podem ter experiência em gestão de saúde, mas podem não ser especialistas em tecnologia.
    - *Necessidades*: Procuram soluções que melhorem a eficiência e a qualidade dos serviços prestados, além de atender aos requisitos regulatórios.
-
-Para uma compreensão mais profunda do público-alvo, podemos criar diagramas de personas e um mapa de stakeholders, destacando as características, objetivos e desafios de cada grupo de usuários. Isso nos permitirá projetar a aplicação "PróSáude" de forma mais precisa, atendendo às necessidades e expectativas específicas de cada público.
