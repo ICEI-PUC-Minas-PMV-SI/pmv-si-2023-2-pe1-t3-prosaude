@@ -4,7 +4,9 @@ No contexto em constante transformação da assistência à saúde, surge o proj
 
 ## Problema
 
-O cerne do problema reside na complexidade da análise histórica de pacientes na área da saúde. Pacientes e profissionais de saúde enfrentam o desafio de lidar com processos de preenchimento manual demorados e propensos a erros, enquanto as tecnologias médicas variam de uma clínica para outra. "PróSáude" aborda essa dificuldade, simplificando o gerenciamento de históricos médicos e fornecendo uma fonte confiável de informações de saúde em um cenário tecnológico diversificado.
+Com os avanços da medicina moderna, surge a necessidade premente de aprimorar o desempenho das consultas médicas. Tanto em clínicas médicas quanto em hospitais públicos e privados, os profissionais de saúde enfrentam desafios significativos de eficiência devido à alta demanda de pacientes e à escassez de recursos, como mão de obra e tempo disponível. A falta de interoperabilidade entre sistemas de saúde distintos resulta em problemas de padronização e dificuldades no acesso a dados e informações dos pacientes.
+
+O cerne do problema reside na complexidade da análise histórica de pacientes na área da saúde. Pacientes e profissionais de saúde enfrentam o desafio de lidar com processos de preenchimento manual demorados e propensos a erros, enquanto as tecnologias médicas variam de uma clínica para outra. Durante as consultas, é notável um desperdício de tempo significativo, uma vez que os profissionais frequentemente precisam repetir as mesmas perguntas e anotar informações já registradas.
 
 ## Objetivos
 
