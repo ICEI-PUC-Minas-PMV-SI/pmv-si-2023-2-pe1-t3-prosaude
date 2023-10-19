@@ -22,7 +22,29 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 
 ![Página principal](img/pgprincipal.png)
 
+
+
+
+
+
+
+
+
+
+
+
 ![Página de cadastro](img/pgcadastro.png)
+
+
+
+
+
+
+
+
+
+
+
 
 ![Página para troca de senha](img/pgesquecesenha.png)
 
