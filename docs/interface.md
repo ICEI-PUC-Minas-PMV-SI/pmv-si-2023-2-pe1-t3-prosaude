@@ -22,33 +22,11 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 
 ![Página principal](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pgprincipal.jpg)
 
-
-
-
-
-
-
-
-
-
-
-
 ![Página de cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pgcadastro.jpg)
 
+![Página para troca de senha](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pgesquecesenha.jpg)
 
-
-
-
-
-
-
-
-
-
-
-![Página para troca de senha](img/pgesquecesenha.png)
-
-![Página de login](img/pglogin.png)
+![Página de login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pglogin.jpg)
 
 ![Página de primeiros socorros](img/pgsocorros.jpg)
 
