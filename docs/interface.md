@@ -33,7 +33,7 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 
 
 
-![Página de cadastro]([img/pgcadastro.png](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pgcadastro.jpg))
+![Página de cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pgcadastro.jpg)
 
 
 
