@@ -1,26 +1,18 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Este documento descreve as especificações do projeto para a aplicação web de Primeiros Socorros. O projeto foi desenvolvido considerando as necessidades de dois principais tipos de usuários:
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+### Persona 1: Dr. Rafael Almeida (Médico)
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Perfil: Dr. Rafael Almeida, 38 anos, é um médico experiente que trabalha em um hospital de grande porte. Ele tem conhecimento avançado em tecnologia e utiliza sistemas de registro eletrônico de saúde em sua prática diária.
+Necessidades: Dr. Rafael busca uma aplicação que o ajude em sanar duvidas do publico de uma maneira rapida, eficaz e de graça.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+### Persona 2: Maria Santos (Paciente)
 
-
+Perfil: Maria Santos, 54 anos, é uma senhora com conhecimento em tecnologias e o mundo digital.
+Necessidade: Com o passar da idade certas dores começaram a surgir e a mesma não quer se dirigir a um hospital pois não possui convenio e nao gostaria de ficar esperando muito tempo em uma fila apenas para saber o que está sentindo.
 
 ## Histórias de Usuários
 
@@ -28,11 +20,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário  (Paciente) | Preencher meus dados uma vez       | Permitir serem usados de novo outra hora|
-|Usuário (Profissional da saúde) | Ver em um clique informações sobre o paciente                 | Para poder fazer o trabalho mais eficiente de maneira mais rápida |
-|Usuário (Paciente) | Poder editar meus dados quando necessario | Para poder facilitar o atendimento |
-|Usuário (Centros Medicos) | Aderir o aplicativo ao banco de dados e atualizar em tempo real | Facilitar o atendimento de maneira rapida |
-|Sistema | Como sistema devo ser seguro | Para poder terem confianca nos dados |
+|Usuário  (Maria Santos) | Consultar informações sobre primeiros socorros | Para poder se previnir de futuras doenças e/ou alguma ocasião ja saber o que fazer|
+|Usuário (Maria Santos) | Consultar um médico confiavel | Para poder tirar duvidas sobre o que está sentindo |
+|Usuário (Dr. Rafael Almeida) | Poder cadastrar na plataforma | Para poder utilizala |
+|Usuário (Dr. Rafael Almeida) | Sanar duvidas de usuarios sobre doenças, dores, etc | Para poder ajudar aqueles que necessitam |
 
 
 ## Requisitos
@@ -43,13 +34,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir a criptografia e segurança dos dados | ALTA |
-|RF-002| Permitir que o usuário cadastre informações| ALTA |  |
-|RF-003| Emitir um prontuário das informações    | ALTA | |
-|RF-004| Permitir atualização em tempo real | MEDIA | |
-|RF-005| Permitir editar dados | MEDIA | |
-|RF-006| Oferecer informações de primeiros socorros | BAIXA | |
-
+|RF-001| O sistema deve permitir que o médico, apenas ele se cadastre | ALTA |  |
+|RF-002| O sistema deve oferecer informações de primeiros socorros | BAIXA | |
+|RF-003| O sistema deve permitir responder perguntas | MEDIA | |
+|RF-004| O sistema deve permitir recuperar a senha em caso de esquecimento | ALTA | |
+|RF-006| O sistema deve permitir fazer login com uma conta ja existente | ALTA | |
+|RF-007| O sistema deve permitir que os pacientes façam perguntas anonimas | MEDIA | |
 
 
 ### Requisitos não Funcionais
@@ -61,7 +51,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O sistema devera atender as ordens legais | ALTA |
 
 
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -69,8 +58,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| O projeto sera desenvolvido usando web responsivo     |
+|02| O projeto sera desenvolvido usando web responsivo     |
 
 
 

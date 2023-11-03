@@ -10,9 +10,8 @@ O projeto PróSaúde oferece uma solução abrangente para pacientes e profissio
 
 ## Integrantes
 
-* Evelyn Eliane Rodrigues de Freitas
+* Henrique Carvalho do Carmo
 * Gustavo Henrique de Moura Luz
-* Igor de Freitas Monteiro
 * Victor Hugo Gulino dos Santos
 
 

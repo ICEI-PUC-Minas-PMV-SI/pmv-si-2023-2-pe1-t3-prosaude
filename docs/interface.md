@@ -3,18 +3,13 @@
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+A página inicial será a interface que realizará a conexão com as funcionalidades e páginas de serviço da nossa aplicação. A partir dela será possível realizar login, cadastrar-se na plataforma, acessar o seu perfil com o histórico,  acessar a pagina de primeiros socorros e etc. E caso esteja em uma pagina de serviço e queira acessar outra é necessário apenas clicar  no botão na parte superior esquerda que irá voltar direto para página principal.
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/userflow2.jpg)
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 
 ## Wireframes
@@ -25,7 +20,15 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Página principal](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pgprincipal.jpg)
+
+![Página de cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pgcadastro.jpg)
+
+![Página para troca de senha](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pgesquecesenha.jpg)
+
+![Página de login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-prosaude/blob/main/docs/img/pglogin.jpg)
+
+![Página de primeiros socorros](img/pgsocorros.jpg)
 
  
 > **Links Úteis**:
