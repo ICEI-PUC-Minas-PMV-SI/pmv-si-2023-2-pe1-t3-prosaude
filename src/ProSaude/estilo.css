@@ -14,9 +14,30 @@
     z-index: 2;
 }
 
+.grid-content{
+    padding: 300px;
+}
 
-.title {
-    margin-left: 10px; 
+.search{
+    margin-left: 100px;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.custom-icon{
+    font-size: 40px;
+}
+
+.search-button{
+    margin-right: 10px;
+    background-color: #55555500;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 10px; /* Espaço entre os botões */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
 .login-container {
