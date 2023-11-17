@@ -170,3 +170,7 @@ img {
     margin-top: 10px;
 }
 
+.title {
+    font-size: 50%;
+    font-style: italic;
+}
