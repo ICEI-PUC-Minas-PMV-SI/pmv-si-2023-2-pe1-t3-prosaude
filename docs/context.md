@@ -1,6 +1,6 @@
 # Introdução
 
-No contexto em constante transformação da assistência à saúde, surge o projeto "PróSáude". Esta aplicação web representa uma resposta inovadora a um desafio premente. A análise histórica de pacientes na área da saúde frequentemente se depara com obstáculos, incluindo o preenchimento demorado e propenso a erros de fichas médicas, bem como a dificuldade em acessar informações de saúde confiáveis. Em um mundo onde o acesso à assistência médica é essencial, "PróSáude" se propõe a oferecer uma solução completa e acessível.
+No contexto em constante transformação da assistência à saúde, surge o projeto "PróSáude". Esta aplicação web representa uma resposta inovadora a um desafio premente. O acesso a informaçõesa na área da saúde frequentemente se depara com obstáculos, incluindo o bem como a dificuldade em acessar informações de saúde confiáveis. Em um mundo onde o acesso à assistência médica é essencial, "PróSáude" se propõe a oferecer uma solução completa e acessível.
 
 ## Problema
 

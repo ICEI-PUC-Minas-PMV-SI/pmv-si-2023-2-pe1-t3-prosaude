@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-O projeto PróSaúde oferece uma solução abrangente para pacientes e profissionais de saúde, simplificando o gerenciamento de históricos médicos e fornecendo informações de saúde úteis. Com uma plataforma web intuitiva, os pacientes podem preencher fichas médicas de forma eficiente e acessar recursos informativos sobre saúde, incluindo primeiros socorros e uso adequado de medicamentos.
+O projeto PróSaúde oferece uma solução abrangente para pacientes e profissionais de saúde, simplificando o acesso e fornecendo informações de saúde úteis através da interação entre os usuários leigos e os usuários especialistas. Com uma plataforma web intuitiva, os usuários podem interagir com perguntas, respostas e comentários de forma eficiente e acessar recursos informativos sobre saúde, incluindo primeiros socorros e uso adequado de medicamentos.
 
 ## Integrantes
 
