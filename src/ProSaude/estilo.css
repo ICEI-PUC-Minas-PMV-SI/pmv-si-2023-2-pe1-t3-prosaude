@@ -1,12 +1,13 @@
 /* estilo.css */
 .top-bar {
-    background-color: #7ed957;
+    height: 150px;
+    background-color: #661a1a;
     color: black;
     padding: 1em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -89,7 +90,7 @@
 
 .button {
     background-color: #55555500;
-    color: black;
+    color: rgb(167, 201, 18);
     padding: 5px 10px;
     text-decoration: none;
     margin-left: 10px; /* Espaço entre os botões */
@@ -104,7 +105,7 @@ body{
 
 }
 img {
-    margin: 0;
+    margin-top: 100px;
     padding: 0;
     display: block;
     margin-top: 50px; /* Espaço entre a barra superior e a imagem */
@@ -174,3 +175,77 @@ img {
     font-size: 50%;
     font-style: italic;
 }
+
+.logo {
+    max-width: 35%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto; /* Mantém a proporção original da imagem */
+    /* Adicione outras propriedades de estilo conforme necessário, como largura máxima, margens, etc. */
+}
+
+.logo-escrita {
+    max-width: 20%; 
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown {
+    background-color: rgba(84, 91, 98, 0.9); /* Cor cinza com 50% de transparência */
+    border-color: #4e555b;
+}
+
+.rodape{
+    background-color: #661a1a;
+}
+.logofinal {
+    max-width: 10%;
+    display: block; /* Garante que a largura máxima seja aplicada corretamente */
+    margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+}
+
+.menu{
+    color: #fff;
+    background-color: #661a1a;
+    border: none;
+}
+
+.dropdown-menu{
+    background-color: #661a1a;
+}
+
+
+.search-container {
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    flex: 1;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-button i {
+    font-size: 18px;
+}
+
+.imagem-medica{
+   
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
