@@ -4,31 +4,27 @@ No contexto em constante transformação da assistência à saúde, surge o proj
 
 ## Problema
 
-Com os avanços da medicina moderna, surge a necessidade premente de aprimorar o desempenho das consultas médicas. Tanto em clínicas médicas quanto em hospitais públicos e privados, os profissionais de saúde enfrentam desafios significativos de eficiência devido à alta demanda de pacientes e à escassez de recursos, como mão de obra e tempo disponível. A falta de interoperabilidade entre sistemas de saúde distintos resulta em problemas de padronização e dificuldades no acesso a dados e informações dos pacientes.
-
-O cerne do problema reside na complexidade da análise histórica de pacientes na área da saúde. Pacientes e profissionais de saúde enfrentam o desafio de lidar com processos de preenchimento manual demorados e propensos a erros, enquanto as tecnologias médicas variam de uma clínica para outra. Durante as consultas, é notável um desperdício de tempo significativo, uma vez que os profissionais frequentemente precisam repetir as mesmas perguntas e anotar informações já registradas.
+Uma lacuna expressiva na busca por informações médicas confiáveis e personalizadas tem sido uma preocupação persistente. Frequentemente, as pessoas enfrentam desafios consideráveis ao procurar respostas para suas perguntas de saúde, muitas vezes relutando em compartilhar suas preocupações de maneira aberta. Esse cenário cria uma necessidade evidente de uma abordagem que ofereça um ambiente seguro e anônimo, onde os usuários possam obter esclarecimentos diretos de profissionais de saúde qualificados. A busca por uma solução que aborde esse desafio específico é uma prioridade, visando proporcionar às pessoas um acesso mais eficaz e confidencial às informações que procuram sobre sua saúde.
 
 ## Objetivos
 
 Este trabalho tem os seguintes objetivos:
-1. **Objetivo Geral:** Desenvolver o "PróSáude", uma aplicação web destinada a solucionar os desafios na análise histórica de pacientes na área da saúde. Isso será alcançado ao simplificar o preenchimento de fichas médicas e ao fornecer informações de saúde úteis.
+1. **Objetivo Geral:** Desenvolver o "PróSáude", uma aplicação web destinada a solucionar os desafios na busca de informações médicas confiaveis. 
 2. **Objetivos Específicos:**
 
-   a. Simplificar e agilizar o processo de preenchimento de fichas médicas, reduzindo o tempo gasto pelos pacientes em ambientes clínicos.
+   a. Simplificar e agilizar o processo de busca de informações sobre problemas de saúde pessoais, sem se expor.
 
    b. Oferecer informações de saúde confiáveis, incluindo orientações sobre primeiros socorros e uso adequado de medicamentos, para capacitar os pacientes em sua jornada de cuidados de saúde.
-
-   c. Implementar uma funcionalidade de geração e acesso seguro e conveniente às fichas médicas, ao mesmo tempo em que melhora a privacidade e a compartilhamento de informações entre pacientes e profissionais de saúde.
 
 ## Justificativa
 
 1. Relevância do Problema:
 
-O projeto "PróSáude" aborda uma questão de extrema relevância no cenário da saúde. A justificativa se fundamenta na análise do problema de análise histórica de pacientes na área da saúde, destacando a complexidade do gerenciamento de históricos médicos, o acesso limitado a informações de saúde confiáveis e a necessidade de integrar tecnologias para preservar a privacidade dos dados do paciente.
+O projeto "PróSáude" aborda uma questão de extrema relevância no cenário da saúde. A justificativa se fundamenta na análise do problema da falta de informações confiaveis na área da saúde, o acesso limitado a informações de saúde confiáveis e a necessidade de integrar tecnologias para preservar a privacidade dos dados do paciente.
 
 2. Impacto Social e Científico:
 
-A justificativa destaca a importância do projeto ao considerar o impacto direto na sociedade e no campo científico. O projeto visa simplificar o preenchimento de fichas médicas, fornecer informações de saúde confiáveis e melhorar a eficiência do acesso a históricos médicos, capacitar pacientes e profissionais de saúde.
+A justificativa destaca a importância do projeto ao considerar o impacto direto na sociedade e no campo científico. O projeto visa fornecer informações de saúde confiáveis e capacitar pacientes e profissionais de saúde.
 
 3. Metodologia Embasada em Pesquisa:
 
@@ -36,7 +32,7 @@ A construção da justificativa incorpora a metodologia de pesquisa utilizada, i
 
 4. Resposta às Necessidades Identificadas:
 
-A justificativa enfatiza como o projeto "PróSáude" foi moldado para atender às necessidades identificadas, abordando os objetivos específicos de simplificar o preenchimento de fichas médicas, fornecer informações confiáveis de saúde e implementar a funcionalidade de QR codes para garantir a segurança e o compartilhamento de informações.
+A justificativa enfatiza como o projeto "PróSáude" foi moldado para atender às necessidades identificadas, abordando os objetivos específicos de evitar as "Fake News", fornecer informações confiáveis de saúde e poder perguntar de forma anonima.
 
 5. Contribuição ao Conhecimento:
 
@@ -51,15 +47,10 @@ O público-alvo do projeto "PróSáude" é diversificado, abrangendo pacientes, 
 
 **1. Pacientes:**
    - *Perfil*: Os pacientes representam um público amplo, variando em idade, formação educacional e experiência tecnológica. Inclui indivíduos que buscam assistência médica em clínicas e hospitais.
-   - *Conhecimentos Prévios*: Pode variar de leigos em tecnologia a pessoas com níveis moderados de habilidades digitais. Muitos podem não estar familiarizados com o preenchimento de fichas médicas e procedimentos médicos.
-   - *Necessidades*: Buscam simplicidade e confiabilidade na gestão de seus históricos médicos. Desejam acesso a informações de saúde claras e confiáveis.
+   - *Conhecimentos Prévios*: Pode variar de leigos em tecnologia a pessoas com níveis moderados de habilidades digitais.
+   - *Necessidades*: Buscam simplicidade e confiabilidade na hora de tirar duvidas. Desejam acesso a informações de saúde claras e confiáveis.
 
 **2. Profissionais de Saúde:**
-   - *Perfil*: Inclui médicos, enfermeiros, assistentes médicos e pessoal administrativo de clínicas e hospitais.
+   - *Perfil*: Inclui médicos, enfermeiro e assistentes médicos.
    - *Conhecimentos Prévios*: Possuem formação médica ou relacionada à saúde e estão familiarizados com tecnologia em graus variados.
-   - *Necessidades*: Requerem uma solução eficiente para acessar e atualizar as informações dos pacientes, reduzindo o tempo gasto em tarefas administrativas.
-
-**3. Clínicas Médicas:**
-   - *Perfil*: Administradores e gestores de clínicas e hospitais.
-   - *Conhecimentos Prévios*: Podem ter experiência em gestão de saúde, mas podem não ser especialistas em tecnologia.
-   - *Necessidades*: Procuram soluções que melhorem a eficiência e a qualidade dos serviços prestados, além de atender aos requisitos regulatórios.
+   - *Necessidades*: Requerem uma solução eficiente para acessar e ajudar pacientes anonimos com duvidas diversas da area da saúde.
