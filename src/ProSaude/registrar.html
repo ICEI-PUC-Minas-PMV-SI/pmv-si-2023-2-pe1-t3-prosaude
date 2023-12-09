@@ -10,6 +10,41 @@
 </head>
 
 <body>
+    <script>
+        function inserirUsuario(){
+            document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const nomeUsuario = document.getElementById('nomeUsuario').value;
+            const emailUsuario = document.getElementById('emailUsuario').value;
+            const senhaUsuario = document.getElementById('senhaUsuario').value;
+            const confirmacaoSenhaUsuario = document.getElementById('confirmacaoSenhaUsuario').value;
+
+            const formData = {
+                nomeUsuario: nomeUsuario,
+                emailUsuario: emailUsuario,
+                senhaUsuario: senhaUsuario,
+                confirmacaoSenhaUsuario: confirmacaoSenhaUsuario
+            };
+                saveFormData(formData);
+            });
+        }
+
+        function saveFormData(formData) {
+            const storedFormData = JSON.parse(localStorage.getItem('formData')) || [];
+
+            storedFormData.push(formData);
+
+            localStorage.setItem('formData', JSON.stringify(storedFormData));
+        }
+
+        function listarInformacoesUsuarios(){
+            return document.getElementById("nomeUsuario").innerHTML = localStorage.getItem("nomeUsuario");
+            return document.getElementById("emailUsuario").innerHTML = localStorage.getItem("emailUsuario");
+            return document.getElementById("senhaUsuario").innerHTML = localStorage.getItem("senhaUsuario");
+            return document.getElementById("confirmacaoSenhaUsuario").innerHTML = localStorage.getItem("confirmacaoSenhaUsuario");
+        }
+    </script>
     <div class="top-bar">
         <div class="title">
             <a class="button" href="index.html">Pr&oacute;Sa&uacute;de</a>
@@ -17,13 +52,13 @@
     </div>
 
     <div class="registration-container">
-        <class="registration-form">
+        <form class="registration-form" id="registrationForm">
             <h2>Registrar-se</h2>
-            <input type="text" placeholder="Nome de usuário">
-            <input type="email" placeholder="E-mail">
-            <input type="password" placeholder="Senha">
-            <input type="password" placeholder="Confirmar Senha">
-            <button type="submit" style="margin-left: 95px">Registrar</button>
+            <input id="nomeUsuario" type="text" placeholder="Nome de usuário">
+            <input id="emailUsuario" type="email" placeholder="E-mail">
+            <input id="senhaUsuario" type="password" placeholder="Senha">
+            <input id="confirmacaoSenhaUsuario" type="password" placeholder="Confirmar Senha">
+            <button type="submit" onclick="inserirUsuario()" style="margin-left: 95px">Registrar</button>
             <a href="login.html">Já tem uma conta? Faça o login</a>
         </form>
     </div>

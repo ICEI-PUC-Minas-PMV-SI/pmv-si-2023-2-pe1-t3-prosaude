@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link type="">
+    <title>Fórum de Saúde</title>
+</head>
+<body>
+    <script>
+        function inserirPergunta(){
+            var pergunta = document.getElementById("question-text").value;
+            localStorage.setItem("pergunta", pergunta);
+            listarPerguntas();
+        }
+
+        function listarPerguntas(){
+            return document.getElementById("perguntas").innerHTML = localStorage.getItem("pergunta");
+        }
+    </script>
+    <header>
+        <h1>Fórum de Saúde</h1>
+    </header>
+
+    <div class="container">
+        <h2>Perguntas e Respostas</h2>
+        <p id="perguntas"></p>
+        <div class="form">
+            <h3>Faça uma pergunta:</h3>
+            <form>
+                <textarea id="question-text" name="question-text" required></textarea>
+                <button onclick="inserirPergunta()">Enviar Pergunta</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

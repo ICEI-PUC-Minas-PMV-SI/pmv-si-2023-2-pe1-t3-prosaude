@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <script>
+      function login() {
+        var nomeUsuario = document.getElementById("nomeUsuario").value;
+        var senhaUsuario = document.getElementById("senhaUsuario").value;
+        var valorNomeUsuario = document.getElementById("nomeUsuario").innerHTML = localStorage.getItem("nomeUsuario");
+        var valorSenhaUsuario = document.getElementById("senhaUsuario").innerHTML = localStorage.getItem("senhaUsuario");
+
+        if (nomeUsuario == valorNomeUsuario && senhaUsuario == valorSenhaUsuario) {
+          alert("Logged In");
+          locate = "new11.html";
+          return false;
+        } else {
+          alert("Usuário ou senha errado");
+          return false;
+        }
+      }
+    </script>
     <div class="top-bar">
-        <div class="title">
-            <h1>Pr&oacute;Sa&uacute;de</h1>
-        </div>
-
+      <div class="title">
+        <h1>Pr&oacute;Sa&uacute;de</h1>
+      </div>
     </div>
 
     <div class="login-container">
-        <form class="login-form">
-            <h2>Login</h2>
-            <input type="text" placeholder="Nome de usuário">
-            <input type="password" placeholder="Senha">
-            <button type="submit">Entrar</button>
-            <a href="#">Esqueci a senha</a>
-            <a href="registrar.html">Cadastrar-se</a>
-        </form>
+      <form class="login-form" id="formLogin" name="formLogin">
+        <h2>Login</h2>
+        <input type="text" id="nomeUsuario" placeholder="Nome de usuário" />
+        <input type="password" id="senhaUsuario" placeholder="Senha" />
+        <button type="submit">Entrar</button>
+        <a href="#">Esqueci a senha</a>
+        <a href="registrar.html">Cadastrar-se</a>
+      </form>
     </div>
-
-
-</body>
-
+  </body>
 </html>
