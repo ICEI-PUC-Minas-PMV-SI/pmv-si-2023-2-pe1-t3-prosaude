@@ -25,13 +25,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Artefato Criado |
 |------|-----------------------------------------|----| ----|
-|RF-001| O sistema deve permitir que o médico, apenas ele se cadastre | ALTA |  |
-|RF-002| O sistema deve oferecer informações de primeiros socorros | BAIXA | |
-|RF-003| O sistema deve permitir responder perguntas | MEDIA | |
-|RF-004| O sistema deve permitir recuperar a senha em caso de esquecimento | ALTA | |
-|RF-006| O sistema deve permitir fazer login com uma conta ja existente | ALTA | |
-|RF-007| O sistema deve permitir que os pacientes façam perguntas anonimas | MEDIA | |
-|RF-008| O sistema deve permitir contatar os donos do site | BAIXA |  | 
+|RF-001| O sistema deve permitir que o médico, apenas ele se cadastre | ALTA | registrar.html |
+|RF-002| O sistema deve oferecer informações de primeiros socorros | BAIXA | primeiros-socorros.html |
+|RF-003| O sistema deve permitir responder perguntas | MEDIA | forum.html |
+|RF-004| O sistema deve permitir recuperar a senha em caso de esquecimento | ALTA | login.html |
+|RF-006| O sistema deve permitir fazer login com uma conta ja existente | ALTA | login.html |
+|RF-007| O sistema deve permitir que os pacientes façam perguntas anonimas | MEDIA | forum.html |
+|RF-008| O sistema deve permitir contatar os donos do site | BAIXA | contato.html |  
 
 
 ## Descrição das estruturas:
