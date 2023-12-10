@@ -22,22 +22,19 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
-
-
 **Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
+**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, confirmar senha.
 **Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
+**Resultado esperado** | Fazer o cadastro do médico
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Fazer login com os dados**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
+**Procedimento**  | 1) O usuário inseri os dados previamentes cadastrados nos campos respectivos.
+**Requisitos associados** | RF-006
+**Resultado esperado** | Login aceito.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
@@ -58,13 +55,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-
-
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
+O resultados dos testes foram bem positivos em relação as espectativas do grupo, ainda há muito a melhorar, a equipe ja está a a trabalhar nisso. O teste de cadastro ainda precisa melhorar, pois o mesmo não informa se há o cadastro efetivo, novamente a equipe está ciente e esta a trabalhar nisso para a proxima iteração.
 
 
 # Testes de Usabilidade
@@ -99,20 +90,20 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
+| 1             | Você é uma pessoa que deseja comprar tirar duvida de uma dor que está sentindo no joelho de forma anonima. |
+| 2             | Você é uma pessoa que deseja verificar os primeiros socorros de uma maneira rapida. |
+| 3             | Você é um(a) medico(a) que deseja responder perguntas de sua profissão. |
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que deseja comprar tirar duvida de uma dor que está sentindo no joelho de forma anonima.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 50 segundos                  |
+| 2       | SIM             | 5                    | 10 segundos                  |
+| 3       | SIM             | 5                    | 1 minuto                     |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
@@ -124,23 +115,34 @@ Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site u
 
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é uma pessoa que deseja verificar os primeiros socorros de uma maneira rapida.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 10 segundos                          |
+| 2       | SIM             | 5                    | 27 segundos                          |
+| 3       | SIM             | 5                    | 1 minuto                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 20 segundos |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
+Cenário 2: Você é uma pessoa que deseja verificar os primeiros socorros de uma maneira rapida.
 
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 18 segundos                          |
+| 2       | SIM             | 3                    | 37 segundos                          |
+| 3       | SIM             | 4                    | 4 minuto                          |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 40 segundos |
+
+    Comentários dos usuários: O site é fácil de acessar, mas o cadastro é demorado.
 
 
 ## Avaliação dos Testes de Usabilidade
