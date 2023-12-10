@@ -40,7 +40,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| O sistema deve permitir recuperar a senha em caso de esquecimento | ALTA | |
 |RF-006| O sistema deve permitir fazer login com uma conta ja existente | ALTA | |
 |RF-007| O sistema deve permitir que os pacientes façam perguntas anonimas | MEDIA | |
-
+|RF-008| O sistema deve permitir contatar os donos do site | BAIXA | |
 
 ### Requisitos não Funcionais
 
