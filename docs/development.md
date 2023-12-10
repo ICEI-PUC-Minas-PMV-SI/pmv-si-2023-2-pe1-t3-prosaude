@@ -17,18 +17,22 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
-## Exemplo
-
 ## Requisitos Atendidos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|ID    | Descrição do Requisito  | Prioridade | Artefato Criado |
+|------|-----------------------------------------|----| ----|
+|RF-001| O sistema deve permitir que o médico, apenas ele se cadastre | ALTA |  |
+|RF-002| O sistema deve oferecer informações de primeiros socorros | BAIXA | |
+|RF-003| O sistema deve permitir responder perguntas | MEDIA | |
+|RF-004| O sistema deve permitir recuperar a senha em caso de esquecimento | ALTA | |
+|RF-006| O sistema deve permitir fazer login com uma conta ja existente | ALTA | |
+|RF-007| O sistema deve permitir que os pacientes façam perguntas anonimas | MEDIA | |
+|RF-008| O sistema deve permitir contatar os donos do site | BAIXA |  | 
+
 
 ## Descrição das estruturas:
 
